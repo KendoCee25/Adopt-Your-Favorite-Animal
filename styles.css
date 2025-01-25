@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cbdfe2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background-color: #d9e9e4;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.2, 0.6);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+/* Form Title */
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Form Labels */
+  label {
+    display: block;
+    margin-top: 15px;
+    color: #555555;
+    font-weight: bold;
+  }
+  
+  /* Input Fields */
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+/* Input Focus */
+input:focus, select:focus, textarea:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+  }
+  
+  /* Submit Button */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+  }
+
+  button a:hover {
+    background-color:#4CAF50 ;
+    
+  }    
